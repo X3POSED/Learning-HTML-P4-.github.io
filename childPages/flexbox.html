@@ -29,8 +29,13 @@
                 box-sizing: border-box;
                 font-size:2vw;
             }
-            div {}
-            .header {}
+            div {border: thin dotted red;}
+
+            .header {
+                border: 1px solid green;
+                padding: 15 px;
+            }
+            
             .menu {}
             .main {}
             .aside {}
@@ -43,7 +48,7 @@
     </head>
     <body>
         <div><header style="font-size:2vw; text-align: center"><h1>Flexbox</h1></header></div>
-        <div><nav><h1>Navigation</h1></nav></div>
+        <div><nav class="header"><h1>Navigation</h1></nav></div>
         <div><aside><a>This is the aside space.</a></aside></div>
         <div><main><h1>Main Space</h1></main></div>
         <div><section>section</section></div>
